@@ -8,9 +8,9 @@ O arquivo `Algo.java` é uma classe simples que apenas contém uma propriedade i
 
 O método `equalsJava15` demonstra uma possível implementação antes da feature de Pattern Matching ter sido incluída na linguagem, notar em especial como é necessário fazer uma checagem de instanceof imediatamente seguida por um casting. 
 
-O método `equalsJava16` demonstra uma possível implementação após a feature Pattern Matching for instanceof ter sido incluída no Java 16. Agora, a checagem e o casting acontecem na mesma linha.
+O método `equalsJava16` demonstra uma possível implementação após a feature Pattern Matching for instanceof ter sido incluída no Java 16. Agora, a checagem e o casting acontecem no mesmo comando.
 
-Por fim, o método que se chama apenas `equals` demonstra a feature de Pattern Matching for switch, introduzida no Java 17.
+Por fim, o método que se chama apenas `equals` demonstra a feature de Pattern Matching for switch, introduzida no Java 17. Nele, um pattern matching é utilizado na label de um case da expressão switch, permitindo que a variável resultante já seja imediatamente utilizada no contexto daquele case.
 
 ## Compilando e rodando features preview
 

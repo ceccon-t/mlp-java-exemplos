@@ -2,7 +2,7 @@
 
 Exemplo da feature Sealed Classes. Mais informações em: https://openjdk.java.net/jeps/409
 
-O arquivo `SealedClasses.java` possui o método main e pode ser rodada via linha de comando após ser compilada. Ela apenas instancia dois objetos de Pessoa (um de cada classe permitida) e chama printa o resultado do método `mostraIdentificao()` para cada.
+O arquivo `SealedClasses.java` possui o método main e pode ser rodada via linha de comando após ser compilada. Ela apenas instancia dois objetos de Pessoa (um de cada classe permitida) e printa o resultado do método `mostraIdentificao()` para cada.
 
 O arquivo `Pessoa.java` é uma sealed class abstrata, que permite ser estendida por apenas duas outras classes: PessoaFisica e PessoaJuridica.
 
