@@ -9,7 +9,7 @@ public class Algo {
         return this.id;
     }
 
-    // Versao com Pattern Matching para instance of (Java16)
+    // Versao sem pattern matching (Java 15 ou anterior)
     public boolean equalsJava15(Object o) {
         if (o instanceof Algo) {
             return ((Algo) o).getId() == this.id;

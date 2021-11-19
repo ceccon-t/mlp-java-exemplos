@@ -7,7 +7,7 @@ public class PatternMatching {
         String comparacao;
 
         System.out.println("==================================================");
-        System.out.println("Comparacao usando equals estilo Java 15 ou menos: ");
+        System.out.println("Comparacao usando equals estilo Java 15 ou anterior: ");
 
         comparacao = algoUm.equalsJava15(algoDois) ? "sao iguais" : "sao diferentes";
         System.out.println("Algo Um e Algo Dois " + comparacao);
